@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agenda de Contatos</h1>
+    </header>
+    <main>
+        <section id="contatos">
+            <h2>Contatos Cadastrados</h2>
+            <ul id="lista-contatos"></ul>
+        </section>
+        
+        <section id="cadastro-contato">
+            <h2>Cadastrar Novo Contato</h2>
+            <form id="form-contato">
+                <input type="text" id="nome" placeholder="Nome" required />
+                <input type="email" id="email" placeholder="E-mail" required />
+                <button type="submit">Cadastrar Contato</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
